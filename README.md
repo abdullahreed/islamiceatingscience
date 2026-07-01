@@ -10,4 +10,4 @@ The content is appropriate for Muslims. While some of the knowledge can benefit 
 
 So, the content is certainly more suitable for a Muslim audience.
 
-[![Email Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/EmailLink.heic)](...)
+[![Email Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/EmailLink.png)](...)
