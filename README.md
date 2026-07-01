@@ -4,6 +4,10 @@
 
 This website is part of an effort to utilise the religion of Almighty God to assist people to eat in a way that is pleasing to Him.
 
+Islamic eating science focuses on the spiritual side of eating. It can be supported by nutritional science, but in Islamic eating science, nutrition is not the main thing.
+
+[![Find Out More Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/FindOutMoreIES.png)](...)
+
 It is a repository of website files that can be shared with competent Muslim healthcare professionals and community members.
 
 The content is appropriate for Muslims. While some of the knowledge can benefit all people, some is specific for people of faith.
