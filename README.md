@@ -8,6 +8,8 @@ It is a repository of website files that can be shared with competent Muslim hea
 
 The content is appropriate for Muslims. While some of the knowledge can benefit all people, some is specific for people of faith.
 
-So, the content is certainly more suitable for a Muslim audience.
+So, the content is more suitable for a Muslim audience than for non-Muslims.
+
+For more information on how to collaborate or even set up your own Islamic eating science website, email the founder.
 
 [![Email Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/EmailLink.png)](mailto:1abdullahreed@gmail.com)
