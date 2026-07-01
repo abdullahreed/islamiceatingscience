@@ -1,6 +1,6 @@
 # islamiceatingscience
 
-![IES Developer Logo](https://github.com/abdullahreed/islamiceatingscience/raw/main/IESDevLogo.png)
+![IES Developer Logo](https://github.com/abdullahreed/islamiceatingscience/raw/main/IESLogoArty.png)
 
 This website is part of an effort to utilise the religion of Almighty God to assist people to eat in a way that is pleasing to Him.
 
