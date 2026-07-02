@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IIES Website Sketch</title>
+<style>
+  :root {
+    --hub:#141410; --olive-bg:#2c2f22; --olive-dark:#3a3d2e;
+    --olive-mid:#4f5642; --olive-light:#6b7358; --charcoal:#1c1c1a;
+    --near-black:#111110; --text-light:#c8cdb8; --text-dim:#8a9078;
+    --gold:#b59a5a; --gold-dim:#7a6535; --female:#5a6b58;
+    --male:#3d5260; --white:#e8e2d4;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{background:var(--near-black);color:var(--text-light);font-family:Georgia,serif;display:flex;flex-direction:column;align-items:center;min-height:100vh;}
+  header{width:100%;background:var(--charcoal);border-bottom:1px solid var(--olive-dark);padding:18px 40px;display:flex;justify-content:space-between;align-items:baseline;}
+  
+  .site-name{font-size:1.5rem;letter-spacing:.18em;color:var(--white);font-weight:400;text-transform:uppercase;}
+  
+  .site-sub{font-size:1rem;color:#dddddd);letter-spacing:.12em;text-transform:uppercase;margin-top:2px;}
+  
+  .bismillah{font-size:1.3rem;color:#e2eee2}
+  
+  .wheel-section{width:100%;background:var(--olive-bg);padding:15px 15px 15px 15px;display:flex;flex-direction:column;align-items:center;}
+  
+  .wheel-label{
+  font-size:0.9rem;
+  letter-spacing:.4em;
+  color:var(--text-dim);
+  text-transform:uppercase;
+  margin-top:20px;
+  margin-bottom:10px;}
+  
+  svg#wheel{
+    width:min(380px,95vw);
+    height-min:(700px, 95vw;
+    overflow:visible;
+
+}
+
+ 
+  @media(max-width:640px)
+  
+</style>
+
+
+</head>
+
+
+<body>
+
+<header>
+  <div>
+    <div class="site-name">IIES</div>
+    <div class="site-sub">Website Sketch</div>
+  </div>
+  <div class="bismillah">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ</div>
+</header>
+
+<div class="wheel-section">
+
+  <div class="wheel-label">THREE INNER NODES<br><br>EIGHT OUTER NODES</div>
+
+ <svg id="wheel" viewBox="0 0 500 1250" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <style>
+      .lbl  {fill:#c8cdb8;font-family:sans;font-size:18px;text-anchor:middle;dominant-baseline:middle;}
+      .lbls {fill:#8a9078;font-family:sans;font-size:14px;text-anchor:middle;dominant-baseline:middle;}
+           .lbllobby {fill:#8a9078;font-family:sans;font-size:24px;text-anchor:middle;dominant-baseline:middle;} 
+
+      .nh   {fill:#141410;stroke:#b59a5a;stroke-width:2;}
+      .nv   {fill:#302e20;stroke:#7a6535;stroke-width:1.5;}
+      .nm   {fill:#2d3a40;stroke:#3d5260;stroke-width:1.5;}
+      .nf   {fill:#2f3a30;stroke:#5a6b58;stroke-width:1.5;}
+
+      .sp   {stroke:#7a6535;stroke-width:1.2;fill:none;stroke-dasharray:5 4;}
+    </style>
+  </defs>
+
+  <!-- ===================== -->
+  <!-- VERTICAL SPINE -->
+  <!-- ===================== -->
+
+  <line class="sp" x1="250" y1="600" x2="250" y2="770"/>
+
+  <!-- Cashier → lower branches -->
+  <line class="sp" x1="250" y1="560" x2="160" y2="600"/>
+  <line class="sp" x1="250" y1="560" x2="340" y2="600"/>
+
+
+ 
+
+  <!-- ===================== -->
+<!-- ADMIN -->
+<!-- ===================== -->
+<g class="node-group" onclick="open_modal('hub')">
+
+  <polygon class="nh"
+    points="250,950 292,995 292,1045 250,1070 208,1045 208,995"/>
+
+  <text class="lbl" x="250" y="1010">ADMIN</text>
+  
+</g>
+
+  <!-- ===================== -->
+  <!-- LOBBY -->
+  <!-- ===================== -->
+  <g class="node-group" onclick="open_modal('lobby')">
+    <polygon class="nv"
+      points="250,180 332,205 332,255 292,300 208,300 168,255 168,205"/>
+    <text class="lbllobby" x="250" y="230">LOBBY</text>
+  </g>
+
+  <!-- ===================== -->
+  <!-- REMEMBRANCE M -->
+  <!-- ===================== -->
+  <g class="node-group" onclick="open_modal('rem_m')">
+    <polygon class="nv"
+      points="160,320 202,335 202,385 160,390 118,385 118,335"/>
+    <text class="lbl" x="160" y="355">DZIKR</text>
+    <text class="lbls" x="160" y="370">MEN</text>
+  </g>
+
+  <!-- ===================== -->
+  <!-- REMEMBRANCE F -->
+  <!-- ===================== -->
+  <g class="node-group" onclick="open_modal('rem_f')">
+    <polygon class="nf"
+      points="330,270 382,335 382,385 340,390 298,385 298,335"/>
+    <text class="lbl" x="340" y="355">DZIKR</text>
+    <text class="lbls" x="340" y="369">WOMEN</text>
+  </g>
+
+  <!-- ===================== -->
+  <!-- CASHIER -->
+  <!-- ===================== -->
+  <g class="node-group" onclick="open_modal('cashier')">
+    <polygon class="nv"
+      points="292,305 292,655 208,655 208,305"/>
+    <text class="lbl" x="250" y="580">CASHIER</text>
+  </g>
+
+  <!-- <!-- ===================== -->
+<!-- LIBRARY -->
+<!-- ===================== -->
+  <g class="node-group" onclick="open_modal('library')">
+  <polygon class="nv"
+    points="400,180 442,205 442,255 400,280 338,255 338,205"/>
+  <text class="lbl" x="388" y="230">LIBRARY</text>
+
+  </g>
+
+
+
+  <!-- ===================== -->
+  <!-- CLASSROOMS -->
+  <!-- ===================== -->
+  <g class="node-group" onclick="open_modal('class_m')">
+    <polygon class="nm"
+      points="160,380 202,885 202,935 160,960 118,935 118,885"/>
+    <text class="lbl" x="160" y="910">CLASS</text>
+    <text class="lbls" x="160" y="925">MEN</text>
+  </g>
+
+  <g class="node-group" onclick="open_modal('class_f')">
+    <polygon class="nf"
+      points="340,400 382,405 382,555 340,560 298,555 298,405"/>
+    <text class="lbl" x="340" y="430">CLASS</text>
+    <text class="lbls" x="340" y="445">WOMEN</text>
+  </g>
+
+  <!-- ===================== -->
+  <!-- PRACTITIONERS -->
+  <!-- ===================== -->
+  <g class="node-group" onclick="open_modal('prac_m')">
+    <polygon class="nm"
+      points="160,1000 202,1025 202,1075 160,1100 118,1075 118,1025"/>
+    <text class="lbl" x="160" y="1050">PRAC</text>
+    <text class="lbls" x="160" y="1065">MEN</text>
+  </g>
+
+  <g class="node-group" onclick="open_modal('prac_f')">
+    <polygon class="nf"
+      points="340,1000 382,1025 382,1075 340,1100 298,1075 298,1025"/>
+    <text class="lbl" x="340" y="1050">PRAC</text>
+    <text class="lbls" x="340" y="1065">WOMEN</text>
+  </g>
+
+</svg>
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
