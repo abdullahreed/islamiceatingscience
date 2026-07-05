@@ -17,3 +17,8 @@ So, the content is more suitable for a Muslim audience than for non-Muslims.
 For more information on how to collaborate or even set up your own Islamic eating science website, email the founder.
 
 [![Email Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/EmailLink.png)](mailto:1abdullahreed@gmail.com)
+
+To understand the philosophy of the website, I have looked in web development a little to find out where it's actually aligned with Islam and where it's not. The research is underway, and I've had some progress in understanding the answer to that question, but I need to do more.
+
+إن شاء الله.
+
