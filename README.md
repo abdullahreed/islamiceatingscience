@@ -23,5 +23,5 @@ To understand the philosophy of the website, I have looked in web development a 
 إن شاء الله.
 
 
-[![Read About Website Launch Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/WebsiteDesignButton.png)](https://abdullahreed.github.io/islamiceatingscience/WebsiteLaunch.html)
+[![Read About Website Launch Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/WebsiteDesignButton.png)](https://abdullahreed.github.io/islamiceatingscience/WebsiteDesignQuotes.html)
 
