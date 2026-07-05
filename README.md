@@ -23,5 +23,6 @@ To understand the philosophy of the website, I have looked in web development a 
 إن شاء الله.
 
 
-[![Find Out More Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/ReadWebsiteLaunch.png)](https:///)
+[![Find Out More Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/ReadWebsiteLaunch.png)]
+(/WebsiteLaunch.html)
 
