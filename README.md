@@ -23,7 +23,7 @@ To understand the philosophy of the website, I have looked in web development a 
 إن شاء الله.
 
 
-[![Read About Website Launch Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/readmegraphics/WebsiteDesignButton.png)](https://abdullahreed.github.io/islamiceatingscience/main/website/WebsiteDesignQuotes.html)
+[![Read About Website Launch Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/readmegraphics/WebsiteDesignButton.png)](https://abdullahreed.github.io/islamiceatingscience/website/WebsiteDesignQuotes.html)
 
 I want to escape the trap of creating an overactive website experience. The internet was not supposed to be about entertainment or living inside the site instead of your own home.
 
@@ -31,5 +31,5 @@ It has to be sufficiently elegant and functional to attract users and beneficial
 
 I believe Muslims can create facilities for students to develop their studies without trying to make the internet behave like a place of worship.
 
-[![Website Sketch Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/readmegraphics/WebsiteSketchButton.jpg)](https://abdullahreed.github.io/islamiceatingscience/main/website/WebsiteSketch.html)
+[![Website Sketch Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/readmegraphics/WebsiteSketchButton.jpg)](https://abdullahreed.github.io/islamiceatingscience/website/WebsiteSketch.html)
 
