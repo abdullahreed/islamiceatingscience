@@ -1,12 +1,12 @@
 # islamiceatingscience
 
-![IES Developer Logo](https://github.com/abdullahreed/islamiceatingscience/raw/main/readmegraphics/IESLogoArty.png)
+![IES Developer Logo](https://raw.githubusercontent.com/abdullahreed/islamiceatingscience/main/readmegraphics/IESLogoArty.png)
 
 This website is part of an effort to utilise the religion of Almighty God to assist people to eat in a way that is pleasing to Him.
 
 Islamic eating science focuses on the spiritual side of eating. It can be supported by nutritional science, but in Islamic eating science, nutrition is not the main thing.
 
-[![Find Out More Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/readmegraphics/FindOutMoreIES.png)](https://islamiceatingscience.carrd.co/)
+[![Find Out More Button](https://raw.githubusercontent.com/abdullahreed/islamiceatingscience/main/readmegraphics/FindOutMoreIES.png)](https://islamiceatingscience.carrd.co/)
 
 This is a repository of website files that can be used by competent Muslim healthcare professionals and community members.
 
