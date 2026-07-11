@@ -25,9 +25,11 @@ To understand the philosophy of the website, I have looked in web development a 
 
 [![Read About Website Launch Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/readmegraphics/WebsiteDesignButton.png)](https://abdullahreed.github.io/islamiceatingscience/main/website/WebsiteDesignQuotes.html)
 
-I want to escape the trap of overactive website experience. The internet was not supposed to be about entertainment or living inside the site instead of your own home.
+I want to escape the trap of creating an overactive website experience. The internet was not supposed to be about entertainment or living inside the site instead of your own home.
 
-Muslims must create facilities for students to deepen their relationship with God but not expect the internet to behave like a mosque either.
+It has to be sufficiently elegant and functional to attract users and beneficial enough to bring good people back again.
+
+I believe Muslims can create facilities for students to develop their studies without trying to make the internet behave like a place of worship.
 
 [![Website Sketch Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/readmegraphics/WebsiteSketchButton.jpg)](https://abdullahreed.github.io/islamiceatingscience/main/website/WebsiteSketch.html)
 
