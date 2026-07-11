@@ -29,5 +29,5 @@ I want to escape the trap of overactive website experience. The internet was not
 
 Muslims must create facilities for students to deepen their relationship with God but not expect the internet to behave like a mosque either.
 
-[![Read About Website Launch Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/readmegraphics/WebsiteSketchButton.png)](https://abdullahreed.github.io/islamiceatingscience/main/website/WebsiteSketch.html)
+[![Website Sketch Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/readmegraphics/WebsiteSketchButton.jpg)](https://abdullahreed.github.io/islamiceatingscience/main/website/WebsiteSketch.html)
 
