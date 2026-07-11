@@ -31,5 +31,5 @@ It has to be sufficiently elegant and functional to attract users and beneficial
 
 I believe Muslims can create facilities for students to develop their studies without trying to make the internet behave like a place of worship.
 
-[![Website Sketch Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/readmegraphics/WebsiteSketchButton.jpg)](https://abdullahreed.github.io/islamiceatingscience/website/WebsiteSketch.html)
+[![Website Sketch Button](https://github.com/abdullahreed/islamiceatingscience/raw/main/readmegraphics/WebsiteSketchButton.jpg)](https://abdullahreed.github.io/islamiceatingscience/website/WebsiteSketchScreenshot.png)
 
