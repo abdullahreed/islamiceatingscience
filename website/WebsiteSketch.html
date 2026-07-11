@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>IIES Website Sketch</title>
+<style>
+  :root {
+    --hub:#141410; --olive-bg:#2c2f22; --olive-dark:#3a3d2e;
+    --olive-mid:#4f5642; --olive-light:#6b7358; --charcoal:#1c1c1a;
+    --near-black:#111110; --text-light:#c8cdb8; --text-dim:#8a9078;
+    --gold:#b59a5a; --gold-dim:#7a6535; --female:#5a6b58;
+    --male:#3d5260; --white:#e8e2d4;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body
+  {
+  background:var(--near-black);
+  color:var(--text-light);
+  font-family:Georgia,serif;display:flex;
+  flex-direction:column;
+  align-items:center;
+  min-height:100vh;
+  }
+  
+  .header-style
+  {
+  width:100%;
+
+  padding:18px 40px;display:flex;
+  }
+  
+  .site-name
+  
+  {
+  font-size:3.5rem;
+  letter-spacing:2.38em;
+  color:var(--white);
+  font-weight:400;
+  text-transform:uppercase;
+  text-align:center;
+  }
+  
+  .site-sub
+  {
+  font-size:1rem;
+  color:#dddddd;
+  letter-spacing:.12em;
+  text-transform:uppercase;
+  margin-top:2px;
+  margin-bottom:15px;
+  text-align:center;
+  }
+  
+  .bismillah
+  {
+  font-size:1.3rem;
+  color:#e2eee2;
+  text-align:center;
+  margin-bottom:15px;
+  }
+  
+  .wheel-section
+  {
+width:100%;
+background:#00BEFD14;
+padding:15px 15px 15px 15px;
+display:flex;
+flex-direction:column;
+align-items:center;
+}
+  
+  .wheel-label
+  {
+  font-size:0.9rem;
+  letter-spacing:.4em;
+  color:var(--text-dim);
+  text-transform:uppercase;
+  margin-top:20px;
+  margin-bottom:10px;
+  }
+  
+  svg#wheel{
+    width:min(380px,95vw);
+    height:min(700px, 95vw);
+    overflow:visible;
+
+}
+
+ 
+  @media(max-width:640px){}
+  
+</style>
+
+
+</head>
+
+
+<body>
+
+<header>
+
+<div class="header-style">
+   IIES Website Sketch</div>
+    
+  </div>
+  <div class="bismillah">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيمِ</div>
+</header>
+
+<div class="wheel-section">
+
+  <div class="wheel-label">THREE INNER NODES<br><br>EIGHT OUTER NODES</div>
+
+ <svg id="wheel" viewBox="0 0 500 1000" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <style>
+    
+      .lbl  
+ {
+      fill:#8a9078;
+      font-family:sans;
+      font-size:18px;
+      text-anchor:middle;
+      dominant-baseline:middle;
+ }
+ 
+      .lbls
+      {
+      fill:#8a9078;
+      font-family:sans;
+      font-size:14px;
+      text-anchor:middle;
+      dominant-baseline:middle;
+      }
+      
+           .lbllobby
+            {
+          fill:#8a9078;
+          font-family:sans;
+          font-size:24px;
+          text-anchor:middle;
+          dominant-baseline:middle;
+          } 
+
+      .admin-outline 
+      {
+      fill:#000000;
+  stroke:#b59a5a;
+  stroke-width:3;
+  }
+      .nv   { fill:#302e20;
+ stroke:#7a6535;
+ stroke-width:3;
+ }
+ 
+      .men   {fill:#2d3a40;stroke:#3d5260;stroke-width:3;}
+      .nf   {fill:#2f3a30;stroke:#5a6b58;stroke-width:3;}
+
+      .sp   {stroke:#7a6535;stroke-width:1.2;fill:none;stroke-dasharray:5 4;}
+    </style>
+  </defs>
+
+
+ 
+
+  <!-- ===================== -->
+<!-- ADMIN -->
+<!-- ===================== -->
+<g>
+
+  <polygon class="admin-outline"
+    points="292,708 292,773 250,808 208,773 208,708"/>
+
+  <text class="lbl" x="250" y="758">ADMIN</text>
+  
+</g>
+
+  <!-- ===================== -->
+  <!-- LOBBY -->
+  <!-- ===================== -->
+  <g>
+  
+    <polygon class="nv"
+      points="250,180 332,205 332,255 292,300 208,300 168,255 168,205"/>
+    <text class="lbllobby" x="250" y="230">LOBBY</text>
+  </g>
+
+  <!-- ===================== -->
+  <!-- REMEMBRANCE M -->
+  <!-- ===================== -->
+  <g>
+  
+    <polygon class="men"
+      points="160,330 202,335 202,385 160,390 118,385 118,335"/>
+    <text class="lbl" x="160" y="355">DZIKR</text>
+    <text class="lbls" x="160" y="370">MEN</text>
+  </g>
+
+  <!-- ===================== -->
+  <!-- REMEMBRANCE F -->
+  <!-- ===================== -->
+  <g>
+   
+    <polygon class="nf"
+      points="340,330 382,335 382,385 340,390 298,385 298,335"/>
+      
+    <text class="lbl" x="340" y="355">DZIKR</text>
+    
+    <text class="lbls" x="340" y="369">WOMEN</text>
+  </g>
+
+  <!-- ===================== -->
+  <!-- DISCOVERY -->
+  <!-- ===================== -->
+  <g>
+  
+    <polygon class="nv"
+      points="292,305 292,700 208,700 208,305"/>
+    <text class="lbllobby" x="250" y="530">DIS</text>    <text class="lbllobby" x="250" y="560">COV</text>
+     <text class="lbllobby" x="250" y="590">ERY</text> 
+  </g>
+
+  <!-- <!-- ===================== -->
+<!-- LIBRARY -->
+<!-- ===================== -->
+  <g>
+  
+  <polygon class="nv"
+    points="400,180 442,205 442,255 400,280 338,255 338,205"/>
+  <text class="lbl" x="388" y="230">LIBRARY</text>
+
+  </g>
+
+
+
+  <!-- ===================== -->
+  <!-- CLASSROOMS -->
+  <!-- ===================== -->
+  <g>
+  
+    <polygon class="men"
+      points="160,400 202,405 202,555 160,560 118,555 118,405"/>
+    <text class="lbl" x="160" y="430">CLASS</text>
+    <text class="lbls" x="160" y="445">MEN</text>
+  </g>
+
+  <g>
+  
+    <polygon class="nf"
+      points="340,400 382,405 382,555 340,560 298,555 298,405"/>
+    <text class="lbl" x="340" y="430">CLASS</text>
+    <text class="lbls" x="340" y="445">WOMEN</text>
+  </g>
+
+  <!-- ===================== -->
+  <!-- PRACTITIONERS -->
+  <!-- ===================== -->
+  <g>
+  
+    <polygon class="men"
+      points="160,570 202,575 202,660 160,665 118,660 118,575"/>
+    <text class="lbl" x="160" y="620">PRAC</text>
+    <text class="lbls" x="160" y="635">MEN</text>
+  </g>
+
+  <g class="node-group" onclick="open_modal('prac_f')">
+    <polygon class="nf"
+      points="340,570 382,575 382,665 340,670 298,665 298,575"/>
+    <text class="lbl" x="340" y="620">PRAC</text>
+    <text class="lbls" x="340" y="635">WOMEN</text>
+  </g>
+
+</svg>
+
+
+
+
+</div>
+
+
+
+
+</body>
+</html>
+
